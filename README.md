@@ -1,26 +1,26 @@
-# 윤준명 · Engineering Portfolio
+# 윤준명 · 포트폴리오
 
-이력서와 프로젝트 사례를 한 곳에서 보여주는 정적 사이트입니다.
+서비스 요구사항을 구조로 구체화하고, AI 기능을 서비스에 연결하며 배포·운영 문제를 해결해 온 경험을 담았습니다.
 
-## 실행
+**[포트폴리오 보기](https://newbission.github.io/portfolio/)** · **[이력서 보기](https://newbission.github.io/portfolio/#resume)**
 
-```sh
-python3 -m http.server 4173 --directory dist
-```
+## 주요 프로젝트
 
-`http://localhost:4173`를 엽니다. 별도 빌드나 패키지 설치가 필요하지 않습니다.
+| 프로젝트 | 주요 경험 |
+| --- | --- |
+| [HTM](https://newbission.github.io/portfolio/#project/htm) | 매장 운영 서비스 설계, AWS 운영 환경 분리, 필요 시 기동하는 staging과 배포 자동화 |
+| [영상 분석 파이프라인](https://newbission.github.io/portfolio/#project/vision) | CCTV 오토라벨링 병목 개선, RTSP 분석과 Kafka·Redis 결과 연계 |
+| [문서·음성 AI](https://newbission.github.io/portfolio/#project/document-ai) | OCR·음성 처리 파이프라인 개선, AI 기능 API 제공, Nginx·HTTPS 배포 |
+| [망원시장 방문객 분석](https://newbission.github.io/portfolio/#project/mangwon) | 방문객 통계, WinForms 조회 도구, LLM API 기반 보고서 문구 생성 |
+| [S²](https://newbission.github.io/portfolio/#project/s2) | 팀 시크릿 공유 서비스의 권한·복구·충돌 처리 설계 · 구현 준비 단계 |
+| [justusing](https://newbission.github.io/portfolio/#project/justusing) | AI를 활용한 파일 처리 도구 제작·공개와 결과 조정 |
 
-## 수정 위치
+## 포트폴리오 구성
 
-- `dist/data.js`: 프로젝트 설명·역할·처리 단계·기술
-- `dist/app.js`: 소개·이력서·프로젝트 목록 및 상세 페이지
-- `dist/style.css`: 디자인·반응형·PDF 인쇄 스타일
-- `dist/index.html`: 기본 구조·메타데이터
+프로젝트마다 문제 배경, 본인의 역할, 해결 과정과 결과를 정리했습니다. AI를 개발 도구로 활용한 경험과 AI 모델·API를 서비스 기능에 연결한 경험을 구분해 소개합니다.
 
-이력서의 ‘인쇄 / PDF 저장’ 버튼은 브라우저 인쇄 대화상자를 엽니다. 대상에서 PDF 저장을 선택할 수 있습니다.
+이력서 페이지에서는 경력과 프로젝트를 함께 확인하고, 인쇄 기능으로 PDF를 저장할 수 있습니다.
 
-## 배포
+---
 
-`main`에 push하면 GitHub Actions가 `dist/`를 GitHub Pages로 배포합니다.
-
-도식은 설명용 재구성입니다. 실제 운영 화면·내부 설정이나 개인 연락처는 포함하지 않습니다.
+[GitHub](https://github.com/newbission) · [사이트 실행·수정 안내](docs/DEVELOPMENT.md)
