@@ -27,11 +27,11 @@ python3 -m http.server 4173 --directory dist
 
 도식은 설명용 재구성입니다. 실제 운영 화면·내부 설정이나 개인 연락처는 포함하지 않습니다.
 
-## 직무별 지원 페이지
+## 공고별 이력서
 
-- `dist/profiles.js`: 직무별 소개·프로젝트 순서와 이력서 사실 데이터
-- `dist/profile-pages.js`: 맞춤 포트폴리오·이력서 렌더링
-- `#profile/<id>`: 직무별 포트폴리오
+- `dist/profiles.js`: 공고별 이력서 소개·경험 순서와 사실 데이터
+- `dist/profile-pages.js`: 맞춤 이력서 렌더링
+- 포트폴리오는 공통 `#portfolio` 경로를 사용합니다. 이전 `#profile/<id>` 링크도 공통 목록을 표시합니다.
 - `#resume/<id>`: 직무별 이력서(브라우저 인쇄/PDF 저장 지원)
 
 회사 조사·면접·학습 계획은 개인 Notion에서 관리하며 공개 사이트에는 포함하지 않습니다.
